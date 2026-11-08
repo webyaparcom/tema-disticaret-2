@@ -1,0 +1,58 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Liman Global Ticaret: kuru gıda, tekstil ve ambalaj ihracatı; hedef pazarlar, sertifikalar ve teklif talebi. (Demo site)",
+    "en": "Liman Global Ticaret: export of dried foods, textiles and packaging; target markets, certificates and quote requests. (Demo site)",
+    "ar": "ليمان غلوبال للتجارة: تصدير الأغذية المجففة والمنسوجات والتغليف مع الأسواق المستهدفة والشهادات وطلب عرض سعر. (موقع تجريبي)"
+  },
+  "keyword": {
+    "tr": "ihracat, dış ticaret, kuru gıda, tekstil",
+    "en": "export, foreign trade, dried foods, textiles",
+    "ar": "تصدير، تجارة خارجية، أغذية مجففة، منسوجات"
+  },
+  "category": "Kurumsal",
+  "name": "Liman Global Ticaret",
+  "domain": "disticaret-2.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "icon": "icon.png",
+  "theme_color": "#166534",
+  "publishMode": "static",
+  "font": {
+    "body": "inter",
+    "heading": "inter",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "ibm-plex-sans-arabic"
+    }
+  },
+  "phone": "+90 342 000 00 00",
+  "email": "export@limanglobal.example",
+  "colorScheme": "auto",
+  "seo": {
+    "noindex": true
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "0px",
+    "--mx-radius-md": "0px",
+    "--mx-radius-lg": "0px",
+    "--mx-radius-xl": "0px",
+    "--mx-shadow-md": "none",
+    "--mx-dur": "200ms"
+  }
+}

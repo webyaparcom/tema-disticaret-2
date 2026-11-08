@@ -1,0 +1,40 @@
+{
+  "id": "fd90po7qa2",
+  "name": {
+    "tr": "Hakkımızda",
+    "en": "About",
+    "ar": "من نحن"
+  },
+  "description": {
+    "tr": "Liman Global Ticaret, üreticiyi uluslararası alıcıyla buluştururken belge ve sevkiyat sürecini baştan sona yöneten kurgusal bir demo firmadır. Bu sitedeki ürünler, belgeler ve pazarlar kurgusaldır.",
+    "en": "Liman Global Ticaret is a fictional demo company that connects producers with international buyers and manages the documents and shipping process end to end. Products, documents and markets on this site are fictional.",
+    "ar": "ليمان غلوبال للتجارة شركة تجريبية افتراضية تربط المنتجين بالمشترين الدوليين وتدير المستندات والشحن من البداية إلى النهاية. المنتجات والوثائق والأسواق في هذا الموقع افتراضية."
+  },
+  "keyword": {
+    "tr": "hakkımızda",
+    "en": "about",
+    "ar": "من نحن"
+  },
+  "path": "hakkimizda",
+  "icon": "info",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "hyw6x0",
+      "x7t8pi"
+    ],
+    "footer": []
+  },
+  "index": 5,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Hakkımızda",
+    "en": "About",
+    "ar": "من نحن"
+  },
+  "date": "2026-10-31T14:53:16.229Z",
+  "update": "2026-10-31T15:06:16.177Z"
+}
