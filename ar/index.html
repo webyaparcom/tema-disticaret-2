@@ -38,19 +38,19 @@
   <link rel="preload" href="/src/fonts/inter/inter-latin-ext-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/inter/inter-latin-ext-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/inter/inter-latin-ext-700-normal.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/fonts/inter.css?v=nz1p5" />
-  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=nz1p5" />
-  <link rel="stylesheet" href="/src/rubik.css?v=nz1p5" />
-  <link rel="stylesheet" href="/src/css.css?v=nz1p5" />
-  <link rel="stylesheet" href="/src/mx-ds.css?v=nz1p5" />
+  <link rel="stylesheet" href="/src/fonts/inter.css?v=xwj6r" />
+  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=xwj6r" />
+  <link rel="stylesheet" href="/src/rubik.css?v=xwj6r" />
+  <link rel="stylesheet" href="/src/css.css?v=xwj6r" />
+  <link rel="stylesheet" href="/src/mx-ds.css?v=xwj6r" />
   
-  <link rel="stylesheet" href="/src/mx-ui.css?v=nz1p5" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=xwj6r" />
   <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=nz1p5" />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=xwj6r" />
   
-  <link rel="stylesheet" href="/src/cookie.css?v=nz1p5" />
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=nz1p5" />
-  <link rel="shortcut icon" href="/img/icon.png?v=nz1p5" type="image/png" />
+  <link rel="stylesheet" href="/src/cookie.css?v=xwj6r" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=xwj6r" />
+  <link rel="shortcut icon" href="/img/icon.png?v=xwj6r" type="image/png" />
   <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
@@ -109,7 +109,7 @@
 }
 </script>
   
-<link rel="stylesheet" href="style.css?v=nz1p5">
+<link rel="stylesheet" href="style.css?v=xwj6r">
 </head>
 
 <body>
@@ -223,6 +223,7 @@
       <nav class="h0001-m9-nav h0001-m9-nav--sag" aria-label="التنقل">
         <ul><li><a class="h0001-m9-oge" href="/ar/sertifikalar/">الشهادات</a></li><li><a class="h0001-m9-oge" href="/ar/galeri/">المعرض</a></li><li><a class="h0001-m9-oge" href="/ar/hakkimizda/">من نحن</a></li><li><a class="h0001-m9-oge" href="/ar/iletisim/">اتصل بنا</a></li></ul>
       </nav>
+      
       <div class="h0001-m9-bar-dil"><nav class="wm-langbar" aria-label="محدد اللغة"><ul><li class="wm-lang-item"><a href="/tr/" hreflang="tr" lang="tr">TR</a></li><li class="wm-lang-item"><a href="/en/" hreflang="en" lang="en">EN</a></li><li class="wm-lang-item wm-lang-active"><a href="/ar/" hreflang="ar" lang="ar" aria-current="true">AR</a></li></ul></nav></div>
       <button class="h0001-m9-hamburger" type="button" aria-expanded="false" aria-controls="m9-pphqlp-panel" aria-label="تبديل القائمة">
         <span class="material-symbols-outlined" aria-hidden="true">menu</span>
@@ -274,6 +275,8 @@
     }
     if (dugme) { dugme.addEventListener("click", function () { if (panel && panel.hidden) { ac(); } else { kapa(); } }); }
     if (kapat) { kapat.addEventListener("click", kapa); }
+    
+    document.addEventListener("click", function (e) { if (panel && !panel.hidden && !panel.contains(e.target) && !(dugme && dugme.contains(e.target))) { kapa(); } });
     document.addEventListener("keydown", function (e) { if (e.key === "Escape") { kapa(); } });
     
     if (panel) {
@@ -484,7 +487,7 @@
     <header class="b0003-lb__head"><h2 class="b0003-lb__title">جهات نعمل معها (افتراضية)</h2></header>
     <div class="b0003-lb__band" role="region" aria-label="شعارات العملاء">
       <div class="b0003-lb__track">
-        <ul class="b0003-lb__set"><li class="b0003-lb__item"><span class="b0003-lb__word">Delta Gida</span></li><li class="b0003-lb__item"><span class="b0003-lb__word">Orion Tekstil</span></li><li class="b0003-lb__item"><span class="b0003-lb__word">Nova Ambalaj</span></li><li class="b0003-lb__item"><span class="b0003-lb__word">Atlas Tarim</span></li><li class="b0003-lb__item"><span class="b0003-lb__word">Vega Makina</span></li><li class="b0003-lb__item"><span class="b0003-lb__word">Kalem Yapi</span></li></ul>
+        <ul class="b0003-lb__set"><li class="b0003-lb__item"><span class="b0003-lb__word">Delta Gıda</span></li><li class="b0003-lb__item"><span class="b0003-lb__word">Orion Tekstil</span></li><li class="b0003-lb__item"><span class="b0003-lb__word">Nova Ambalaj</span></li><li class="b0003-lb__item"><span class="b0003-lb__word">Atlas Tarım</span></li><li class="b0003-lb__item"><span class="b0003-lb__word">Vega Makina</span></li><li class="b0003-lb__item"><span class="b0003-lb__word">Kalem Yapı</span></li></ul>
         
       </div>
     </div>
@@ -495,7 +498,7 @@
 <section class="b0004-sa b0004-sa-yatay" id="sa-c5bizc" style="--sa-n:4">
   <div class="b0004-sa-wrap">
     <header class="b0004-sa-head"><p class="b0004-sa-eyebrow">الإجراءات</p><h2 class="b0004-sa-title">من الطلب إلى الشحن</h2><p class="b0004-sa-desc">التصدير في أربع خطوات.</p></header>
-    <ol class="b0004-sa-list" aria-label="خطوات العملية"><li class="b0004-sa-step"><span class="b0004-sa-no" aria-hidden="true">1</span><div class="b0004-sa-govde"><span class="b0004-sa-etiket">الخطوة 1</span><h3 class="b0004-sa-h">الاستفسار والعينات</h3><p class="b0004-sa-p">تُذكر المنتج والكمية والبلد المستهدف وتُرسَل العينات.</p></div><span class="b0004-sa-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></li><li class="b0004-sa-step"><span class="b0004-sa-no" aria-hidden="true">2</span><div class="b0004-sa-govde"><span class="b0004-sa-etiket">الخطوة 2</span><h3 class="b0004-sa-h">العرض والعقد</h3><p class="b0004-sa-p">تُحدَّد شروط Incoterms والدفع والتسليم كتابةً.</p></div><span class="b0004-sa-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></li><li class="b0004-sa-step"><span class="b0004-sa-no" aria-hidden="true">3</span><div class="b0004-sa-govde"><span class="b0004-sa-etiket">الخطوة 3</span><h3 class="b0004-sa-h">الإنتاج والفحص</h3><p class="b0004-sa-p">يتم الإنتاج وفحص الجودة والتغليف.</p></div><span class="b0004-sa-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></li><li class="b0004-sa-step"><span class="b0004-sa-no" aria-hidden="true">4</span><div class="b0004-sa-govde"><span class="b0004-sa-etiket">الخطوة 4</span><h3 class="b0004-sa-h">الشحن والوثائق</h3><p class="b0004-sa-p">يكتمل التحميل والجمارك والمستندات.</p></div><span class="b0004-sa-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></li></ol>
+    <ol class="b0004-sa-list" aria-label="خطوات العملية"><li class="b0004-sa-step"><span class="b0004-sa-no" aria-hidden="true">1</span><div class="b0004-sa-govde"><span class="b0004-sa-etiket">الخطوة 1</span><h3 class="b0004-sa-h">الاستفسار والعينات</h3><p class="b0004-sa-p">يُحدَّد المنتج والكمية والبلد المستهدف وتُرسَل العينات.</p></div><span class="b0004-sa-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></li><li class="b0004-sa-step"><span class="b0004-sa-no" aria-hidden="true">2</span><div class="b0004-sa-govde"><span class="b0004-sa-etiket">الخطوة 2</span><h3 class="b0004-sa-h">العرض والعقد</h3><p class="b0004-sa-p">تُحدَّد شروط Incoterms والدفع والتسليم كتابةً.</p></div><span class="b0004-sa-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></li><li class="b0004-sa-step"><span class="b0004-sa-no" aria-hidden="true">3</span><div class="b0004-sa-govde"><span class="b0004-sa-etiket">الخطوة 3</span><h3 class="b0004-sa-h">الإنتاج والفحص</h3><p class="b0004-sa-p">يتم الإنتاج وفحص الجودة والتغليف.</p></div><span class="b0004-sa-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></li><li class="b0004-sa-step"><span class="b0004-sa-no" aria-hidden="true">4</span><div class="b0004-sa-govde"><span class="b0004-sa-etiket">الخطوة 4</span><h3 class="b0004-sa-h">الشحن والوثائق</h3><p class="b0004-sa-p">يكتمل التحميل والجمارك والمستندات.</p></div><span class="b0004-sa-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></li></ol>
   </div>
 </section>
 
@@ -634,10 +637,10 @@
   
 
   <script defer src="/src/swiper-bundle.min.js"></script>
-  <script defer src="/src/mx-ui.js?v=nz1p5"></script>
-  <script defer src="/src/mx-store.js?v=nz1p5"></script>
-  <script defer type="text/javascript" src="/src/js.js?v=nz1p5"></script>
-  <script defer src="/src/cookie.js?v=nz1p5"></script>
+  <script defer src="/src/mx-ui.js?v=xwj6r"></script>
+  <script defer src="/src/mx-store.js?v=xwj6r"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=xwj6r"></script>
+  <script defer src="/src/cookie.js?v=xwj6r"></script>
 
 </body>
 

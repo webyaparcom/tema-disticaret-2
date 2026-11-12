@@ -38,19 +38,19 @@
   <link rel="preload" href="/src/fonts/inter/inter-latin-ext-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/inter/inter-latin-ext-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/inter/inter-latin-ext-700-normal.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/fonts/inter.css?v=q3x9v" />
-  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=q3x9v" />
-  <link rel="stylesheet" href="/src/rubik.css?v=q3x9v" />
-  <link rel="stylesheet" href="/src/css.css?v=q3x9v" />
-  <link rel="stylesheet" href="/src/mx-ds.css?v=q3x9v" />
+  <link rel="stylesheet" href="/src/fonts/inter.css?v=ovp9z" />
+  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=ovp9z" />
+  <link rel="stylesheet" href="/src/rubik.css?v=ovp9z" />
+  <link rel="stylesheet" href="/src/css.css?v=ovp9z" />
+  <link rel="stylesheet" href="/src/mx-ds.css?v=ovp9z" />
   
-  <link rel="stylesheet" href="/src/mx-ui.css?v=q3x9v" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=ovp9z" />
   <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=q3x9v" />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=ovp9z" />
   
-  <link rel="stylesheet" href="/src/cookie.css?v=q3x9v" />
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=q3x9v" />
-  <link rel="shortcut icon" href="/img/icon.png?v=q3x9v" type="image/png" />
+  <link rel="stylesheet" href="/src/cookie.css?v=ovp9z" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=ovp9z" />
+  <link rel="shortcut icon" href="/img/icon.png?v=ovp9z" type="image/png" />
   <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
@@ -104,7 +104,7 @@
         "@type": "ImageObject",
         "url": "https://disticaret-2.webyapar.com/img/logo.png"
       },
-      "dateModified": "2026-10-31T15:06:16.171Z",
+      "dateModified": "2026-11-12T07:35:21.486Z",
       "breadcrumb": {
         "@id": "https://disticaret-2.webyapar.com/ar/sertifikalar/#breadcrumb"
       }
@@ -131,7 +131,7 @@
 }
 </script>
   
-<link rel="stylesheet" href="style.css?v=q3x9v">
+<link rel="stylesheet" href="style.css?v=ovp9z">
 </head>
 
 <body>
@@ -245,6 +245,7 @@
       <nav class="h0001-m9-nav h0001-m9-nav--sag" aria-label="التنقل">
         <ul><li><a class="h0001-m9-oge" href="/ar/sertifikalar/" aria-current="page">الشهادات</a></li><li><a class="h0001-m9-oge" href="/ar/galeri/">المعرض</a></li><li><a class="h0001-m9-oge" href="/ar/hakkimizda/">من نحن</a></li><li><a class="h0001-m9-oge" href="/ar/iletisim/">اتصل بنا</a></li></ul>
       </nav>
+      
       <div class="h0001-m9-bar-dil"><nav class="wm-langbar" aria-label="محدد اللغة"><ul><li class="wm-lang-item"><a href="/tr/sertifikalar/" hreflang="tr" lang="tr">TR</a></li><li class="wm-lang-item"><a href="/en/sertifikalar/" hreflang="en" lang="en">EN</a></li><li class="wm-lang-item wm-lang-active"><a href="/ar/sertifikalar/" hreflang="ar" lang="ar" aria-current="true">AR</a></li></ul></nav></div>
       <button class="h0001-m9-hamburger" type="button" aria-expanded="false" aria-controls="m9-pphqlp-panel" aria-label="تبديل القائمة">
         <span class="material-symbols-outlined" aria-hidden="true">menu</span>
@@ -296,6 +297,8 @@
     }
     if (dugme) { dugme.addEventListener("click", function () { if (panel && panel.hidden) { ac(); } else { kapa(); } }); }
     if (kapat) { kapat.addEventListener("click", kapa); }
+    
+    document.addEventListener("click", function (e) { if (panel && !panel.hidden && !panel.contains(e.target) && !(dugme && dugme.contains(e.target))) { kapa(); } });
     document.addEventListener("keydown", function (e) { if (e.key === "Escape") { kapa(); } });
     
     if (panel) {
@@ -565,10 +568,10 @@
   
 
   <script defer src="/src/swiper-bundle.min.js"></script>
-  <script defer src="/src/mx-ui.js?v=q3x9v"></script>
-  <script defer src="/src/mx-store.js?v=q3x9v"></script>
-  <script defer type="text/javascript" src="/src/js.js?v=q3x9v"></script>
-  <script defer src="/src/cookie.js?v=q3x9v"></script>
+  <script defer src="/src/mx-ui.js?v=ovp9z"></script>
+  <script defer src="/src/mx-store.js?v=ovp9z"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=ovp9z"></script>
+  <script defer src="/src/cookie.js?v=ovp9z"></script>
 
 </body>
 
